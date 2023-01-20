@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Home Page h1 styles */
+.heading {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Media Screens size Navbar bigger than tablet(pc)786PX */
+/* @media only screen and (min-width: 768px) {
+  .MyNav {
+    background-color: blue;
+  }
+} */
+
+/* Media Screens size for Mobile */
+@media (min-width: 492px) and (max-width: 576px) {
+  .Form {
+    width: 300px;
+    margin-left: 120px;
+  }
+  .ContactUs {
+    width: 300px;
+    margin-left: 120px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .Form {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* Media size for 572 maximum for counter  */
+@media only screen and (max-width: 575px) {
+  .Counter_Div {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* adding clouds to ffull root div */
+.clouds-bg {
+  background-image: url("clouds_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+/* size for mobile weather */
+@media only screen and (max-width: 575px) {
+  .weather_container {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* seting card images of home page 
+ */
+.card-img-right {
+  float: right;
+  max-width: 40%;
+  margin: 0 0 1rem 1rem;
+}
+
+/* digital style text for counter */
+.digital {
+  font-family: "Orbitron", sans-serif;
+}
